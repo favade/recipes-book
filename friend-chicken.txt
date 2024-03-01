@@ -15,3 +15,8 @@ Marinate the Chicken:
 Let the Chicken Rest:
 Heat the Oil:
 Fry the Chicken:
+
+
+func generateRandomNumber(upperValue: Double) -> Double {
+    return Double.random(in: 1..<upperValue)
+}
