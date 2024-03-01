@@ -18,5 +18,9 @@ Fry the Chicken:
 
 
 func generateRandomNumber(upperValue: Int) -> Int {
-    return Double.random(in: 1..<upperValue)
+    return Int.random(in: 1..<upperValue)
+}
+
+func generateRandomNumber(upperValue: Double) -> Int {
+    return Int.random(in: 1..<upperValue)
 }
