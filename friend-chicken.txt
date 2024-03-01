@@ -17,6 +17,6 @@ Heat the Oil:
 Fry the Chicken:
 
 
-func generateRandomNumber(upperValue: Double) -> Double {
-    return Double.random(in: 1..<upperValue)
+func generateRandomNumber(upperVal: Double) -> Double {
+    return Double.random(in: 1..<upperVal)
 }
